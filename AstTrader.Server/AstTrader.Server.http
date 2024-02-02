@@ -1,0 +1,6 @@
+@AstTrader.Server_HostAddress = http://localhost:5133
+
+GET {{AstTrader.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Skender.Stock.Indicators" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AstTrader.DbSeeder\AstTrader.DbSeeder.csproj" />
+  </ItemGroup>
+
+</Project>

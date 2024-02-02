@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <UserSecretsId>444dcb72-2831-45b0-98d0-0aec23771a8d</UserSecretsId>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" />
+    <PackageReference Include="FluentAssertions" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="NUnit" />
+    <PackageReference Include="NUnit3TestAdapter" />
+    <PackageReference Include="NUnit.Analyzers" />
+    <PackageReference Include="coverlet.collector" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AstTrader.DbSeeder\AstTrader.DbSeeder.csproj" />
+    <ProjectReference Include="..\AstTrader.Server\AstTrader.Server.csproj" />
+    <ProjectReference Include="..\AstTrader.Strategy\AstTrader.Strategy.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="KiteConnect">
+      <HintPath>..\kite-connect-net8.0\KiteConnect.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="IndexLists/**" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>

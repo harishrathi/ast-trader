@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "KiteConnect/4.2.1": {
+        "dependencies": {
+          "CsvTextFieldParser": "1.2.1",
+          "Microsoft.CSharp": "4.7.0",
+          "System.Text.Json": "8.0.1"
+        },
+        "runtime": {
+          "KiteConnect.dll": {}
+        }
+      },
+      "CsvTextFieldParser/1.2.1": {
+        "runtime": {
+          "lib/netstandard2.0/CsvTextFieldParser.dll": {
+            "assemblyVersion": "1.2.1.0",
+            "fileVersion": "1.2.1.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "System.Text.Encodings.Web/8.0.0": {},
+      "System.Text.Json/8.0.1": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.123.58001"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KiteConnect/4.2.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvTextFieldParser/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NtCiRJyE7yo7JYvaxPlF3BQ8zxCO3/L+5VvNVQ9RlV6AZ2algKHoC5/xGVHJr1wy2+udBHtzrZOD7QWFdQ8ocA==",
+      "path": "csvtextfieldparser/1.2.1",
+      "hashPath": "csvtextfieldparser.1.2.1.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
+      "path": "system.text.encodings.web/8.0.0",
+      "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7AWk2za1hSEJBppe/Lg+uDcam2TrDqwIKa9XcPssSwyjC2xa39EKEGul3CO5RWNF+hMuZG4zlBDrvhBdDTg4lg==",
+      "path": "system.text.json/8.0.1",
+      "hashPath": "system.text.json.8.0.1.nupkg.sha512"
+    }
+  }
+}
