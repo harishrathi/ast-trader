@@ -1,4 +1,4 @@
-namespace AstTrader.Server
+namespace AstTrader.Server.MvcController
 {
     public class WeatherForecast
     {

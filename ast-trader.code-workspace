@@ -5,6 +5,21 @@
 		}
 	],
 	"settings": {
-		"workbench.iconTheme": "material-icon-theme"
+		"files.exclude": {
+			"**/.git": true,
+			"**/.vs": true
+		},
+		"workbench.iconTheme": "material-icon-theme",
+		"git.autofetch": true,
+		"mdb.confirmRunAll": false,
+		"editor.formatOnSave": true
+	},
+	"extensions": {
+		"recommendations": [
+			"mongodb.mongodb-vscode",
+			"pkief.material-icon-theme",
+			"ms-azuretools.vscode-docker",
+			"ms-dotnettools.csdevkit"
+		]
 	}
 }
