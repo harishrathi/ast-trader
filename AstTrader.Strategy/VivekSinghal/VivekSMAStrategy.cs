@@ -1,6 +1,6 @@
 using AstTrader.DbSeeder.StockInstrumentDL;
 
-namespace AstTrader.Strategy.StrategyImpl;
+namespace AstTrader.Strategy.VivekSinghal;
 
 public class VivekSMAStrategy
 {

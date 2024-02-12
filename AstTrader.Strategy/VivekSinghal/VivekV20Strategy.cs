@@ -2,7 +2,7 @@ using AstTrader.DbSeeder.StockCandleDL;
 using AstTrader.DbSeeder.StockInstrumentDL;
 using AstTrader.DbSeeder.Utils;
 
-namespace AstTrader.Strategy.StrategyImpl;
+namespace AstTrader.Strategy.VivekSinghal;
 
 public class VivekV20Strategy
 {
