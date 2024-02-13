@@ -1,4 +1,4 @@
-﻿using AstTrader.DbSeeder.StockInstrumentDL;
+using AstTrader.DbSeeder.StockInstrumentDL;
 using AstTrader.DbSeeder.Utils;
 using AstTrader.Tests.TestUtils;
 using MongoDB.Driver.Linq;

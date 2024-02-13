@@ -1,4 +1,4 @@
-﻿namespace AstTrader.DbSeeder.StockIndexDL
+namespace AstTrader.DbSeeder.StockIndexDL
 {
     public static class StockIndexSeedLists
     {

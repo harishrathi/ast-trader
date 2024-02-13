@@ -1,4 +1,4 @@
-﻿using AstTrader.DbSeeder.Utils;
+using AstTrader.DbSeeder.Utils;
 
 namespace AstTrader.DbSeeder.StockIndexDL
 {

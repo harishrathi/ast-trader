@@ -1,4 +1,4 @@
-﻿using KiteConnect;
+using KiteConnect;
 
 using MongoDB.Driver;
 

@@ -1,4 +1,4 @@
-﻿namespace AstTrader.DbSeeder.Utils
+namespace AstTrader.DbSeeder.Utils
 {
     public static class DbSetup
     {

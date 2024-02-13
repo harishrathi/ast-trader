@@ -1,4 +1,4 @@
-﻿using AstTrader.DbSeeder.StockCandleDL;
+using AstTrader.DbSeeder.StockCandleDL;
 using AstTrader.DbSeeder.StockInstrumentDL;
 using AstTrader.DbSeeder.Utils;
 using AstTrader.DbSeeder.Zerodha;

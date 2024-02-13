@@ -1,4 +1,4 @@
-﻿using System.Globalization;
+using System.Globalization;
 
 using AstTrader.DbSeeder.StockCandleDL;
 using AstTrader.DbSeeder.StockInstrumentDL;

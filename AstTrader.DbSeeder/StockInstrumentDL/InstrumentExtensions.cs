@@ -1,4 +1,4 @@
-﻿using AstTrader.DbSeeder.StockCandleDL;
+using AstTrader.DbSeeder.StockCandleDL;
 
 namespace AstTrader.DbSeeder.StockInstrumentDL
 {
