@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AstTrader.Shared\AstTrader.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="KiteConnect">
       <HintPath>..\kite-connect-net8.0\KiteConnect.dll</HintPath>
     </Reference>

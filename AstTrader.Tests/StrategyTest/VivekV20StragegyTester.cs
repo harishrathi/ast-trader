@@ -4,7 +4,7 @@ using AstTrader.DbSeeder.Utils;
 using AstTrader.Tests.TestUtils;
 using AstTrader.Strategy;
 using AstTrader.DbSeeder.StockIndexDL;
-using AstTrader.Strategy.StrategyImpl;
+using AstTrader.Strategy.VivekSinghal;
 
 namespace AstTrader.Tests.StrategyTest;
 

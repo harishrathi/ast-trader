@@ -8,7 +8,7 @@ namespace AstTrader.DbSeeder.Zerodha
     {
         public Kite kite { get; private set; }
 
-        public KiteWrapper(ApplicationSettings appSettings)
+        public KiteWrapper(AppSettings appSettings)
         {
             kite = new Kite(string.Empty, appSettings.ConnectionStrings.KiteAuthToken);
         }

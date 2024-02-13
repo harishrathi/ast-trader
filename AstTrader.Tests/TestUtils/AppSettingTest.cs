@@ -10,17 +10,16 @@ namespace AstTrader.Tests.TestUtils
         {
             var appSetting = GetAppSettings();
             appSetting.ConnectionStrings.Should().NotBeNull();
-            appSetting.ConnectionStrings.MongoDb.Should().NotBeNullOrEmpty();
-            appSetting.ConnectionStrings.MongoDbName.Should().NotBeNullOrEmpty();
+            appSetting.ConnectionStrings.MongoDbConnString.Should().NotBeNullOrEmpty();
             appSetting.ConnectionStrings.KiteAuthToken.Should().NotBeNullOrEmpty();
         }
 
-        public static ApplicationSettings GetAppSettings()
+        public static AppSettings GetAppSettings()
         {
             var configRoot = AppConfigUtils.InitConfig();
             configRoot.Should().NotBeNull();
 
-            var appSetting = new ApplicationSettings();
+            var appSetting = new AppSettings();
             appSetting.InitConnStrings(configRoot);
 
             return appSetting;

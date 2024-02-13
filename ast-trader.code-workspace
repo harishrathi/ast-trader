@@ -7,7 +7,9 @@
 	"settings": {
 		"files.exclude": {
 			"**/.git": true,
-			"**/.vs": true
+			"**/.vs": true,
+			"**/obj": true,
+			"**/bin": true,
 		},
 		"workbench.iconTheme": "material-icon-theme",
 		"git.autofetch": true,

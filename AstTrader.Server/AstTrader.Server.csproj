@@ -23,6 +23,8 @@
         <ProjectReference Include="..\asttrader.client\asttrader.client.esproj">
             <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
         </ProjectReference>
+        <ProjectReference Include="..\AstTrader.Database\AstTrader.Database.csproj" />
+        <ProjectReference Include="..\AstTrader.Shared\AstTrader.Shared.csproj" />
     </ItemGroup>
 
 </Project>

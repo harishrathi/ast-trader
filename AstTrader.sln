@@ -28,6 +28,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AstTrader.DbSeeder", "AstTr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AstTrader.Strategy", "AstTrader.Strategy\AstTrader.Strategy.csproj", "{D050EB2E-2957-4A9F-BABC-EDBE5A43319C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstTrader.Shared", "AstTrader.Shared\AstTrader.Shared.csproj", "{D41C05A3-23EC-46A2-9F9C-BC8128D5CFB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstTrader.Database", "AstTrader.Database\AstTrader.Database.csproj", "{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,14 @@ Global
 		{D050EB2E-2957-4A9F-BABC-EDBE5A43319C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D050EB2E-2957-4A9F-BABC-EDBE5A43319C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D050EB2E-2957-4A9F-BABC-EDBE5A43319C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D41C05A3-23EC-46A2-9F9C-BC8128D5CFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41C05A3-23EC-46A2-9F9C-BC8128D5CFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41C05A3-23EC-46A2-9F9C-BC8128D5CFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41C05A3-23EC-46A2-9F9C-BC8128D5CFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
