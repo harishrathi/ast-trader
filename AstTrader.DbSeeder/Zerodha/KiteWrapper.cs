@@ -1,6 +1,7 @@
 using AstTrader.DbSeeder.Utils;
 
 using KiteConnect;
+using TradeAstra.Core.Config;
 
 namespace AstTrader.DbSeeder.Zerodha
 {
@@ -8,9 +9,9 @@ namespace AstTrader.DbSeeder.Zerodha
     {
         public Kite kite { get; private set; }
 
-        public KiteWrapper(AppSettings appSettings)
+        public KiteWrapper(AppConnectionString appConnectionString)
         {
-            kite = new Kite(string.Empty, appSettings.ConnectionStrings.KiteAuthToken);
+            kite = new Kite(string.Empty, appConnectionString.KiteAuthToken);
         }
 
         public List<Instrument> GetSymbolsForNSE()

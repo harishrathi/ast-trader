@@ -11,4 +11,5 @@ public class AppConnectionStrings
 
     public string MongoDbConnString { get; set; } = string.Empty;
     public string KiteAuthToken { get; set; } = string.Empty;
+    public string SqlDbConnString { get; set; } = string.Empty;
 }

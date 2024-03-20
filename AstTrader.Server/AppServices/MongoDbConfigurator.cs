@@ -1,12 +1,11 @@
 using AstTrader.Database.DbSetup;
-using AstTrader.DbSeeder.Utils;
 using MongoDB.Driver;
 
 namespace AstTrader.Server.AppServices;
 
 public static class MongoDbConfigurator
 {
-    public static MongoClient AddDbService(this IServiceCollection services, AppConnectionStrings connStrings)
+    public static MongoClient AddDbService(this IServiceCollection services, AppConnectionString connStrings)
     {
         var mongoUrlBuilder = new MongoUrlBuilder(connStrings.MongoDbConnString);
         var mongoUrl = mongoUrlBuilder.ToMongoUrl();

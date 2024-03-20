@@ -10,7 +10,7 @@ public class DatetimeFixingTest
     [Test, Explicit]
     public void FixForInstrument()
     {
-        var appSetting = AppSettingTest.GetAppSettings();
+        var appSetting = GlobalTestUtils.GetAppConnectionString();
 
         var mongoDb = new MongoDbConnect(appSetting);
         var database = mongoDb.GetDatabase();

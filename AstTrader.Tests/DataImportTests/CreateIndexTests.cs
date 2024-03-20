@@ -1,18 +1,17 @@
 using System.Text.Json;
-
 using AstTrader.DbSeeder.StockIndexDL;
 using AstTrader.DbSeeder.Utils;
 using AstTrader.Tests.TestUtils;
 
 namespace AstTrader.Tests.DataImportTests
 {
-    [TestFixture]
+    [Explicit]
     public class CreateIndexTests
     {
-        [Test, Explicit]
+        [Test]
         public void CreateIndexCollection()
         {
-            var appSetting = AppSettingTest.GetAppSettings();
+            var appSetting = GlobalTestUtils.GetAppConnectionString();
             var mongoDb = new MongoDbConnect(appSetting);
             var database = mongoDb.GetDatabase();
 
@@ -21,7 +20,7 @@ namespace AstTrader.Tests.DataImportTests
             seeder.ConfigureCollection();
         }
 
-        [Test, Explicit]
+        [Explicit]
         public void CreateVNse500Index()
         {
             string jsonFilePath = "IndexLists/V40.json";
@@ -34,7 +33,7 @@ namespace AstTrader.Tests.DataImportTests
                 index = JsonSerializer.Deserialize<StockIndex>(jsonString) ?? throw new ArgumentNullException();
             }
 
-            var appSetting = AppSettingTest.GetAppSettings();
+            var appSetting = GlobalTestUtils.GetAppConnectionString();
             var mongoDb = new MongoDbConnect(appSetting);
             var database = mongoDb.GetDatabase();
             var stockIndexCollection = database.GetCollection<StockIndex>(StockIndexDbConfig.CollectionName);

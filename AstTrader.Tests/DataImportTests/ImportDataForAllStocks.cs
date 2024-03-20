@@ -12,7 +12,7 @@ namespace AstTrader.Tests.DataImportTests
         [Test, Explicit]
         public void GetAllStockInstruments()
         {
-            var appSetting = AppSettingTest.GetAppSettings();
+            var appSetting = GlobalTestUtils.GetAppConnectionString();
 
             var mongoDb = new MongoDbConnect(appSetting);
             var database = mongoDb.GetDatabase();
@@ -26,7 +26,7 @@ namespace AstTrader.Tests.DataImportTests
         [Test, Explicit]
         public void GetDataForAllStocks()
         {
-            var appSetting = AppSettingTest.GetAppSettings();
+            var appSetting = GlobalTestUtils.GetAppConnectionString();
 
             var mongoDb = new MongoDbConnect(appSetting);
             var database = mongoDb.GetDatabase();

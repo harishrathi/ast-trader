@@ -14,7 +14,7 @@ public class Vivek3XIn3YStragegyTester
     [Test, Explicit]
     public void Test_3XIn3Y_OnV40()
     {
-        var appSetting = AppSettingTest.GetAppSettings();
+        var appSetting = GlobalTestUtils.GetAppConnectionString();
 
         var mongoDb = new MongoDbConnect(appSetting);
         var database = mongoDb.GetDatabase();

@@ -14,7 +14,7 @@ public class VivekV20StragegyTester
     [Test, Explicit]
     public void V20_Gillete_Test()
     {
-        var appSetting = AppSettingTest.GetAppSettings();
+        var appSetting = GlobalTestUtils.GetAppConnectionString();
 
         var mongoDb = new MongoDbConnect(appSetting);
         var database = mongoDb.GetDatabase();
@@ -41,7 +41,7 @@ public class VivekV20StragegyTester
     [Test, Explicit]
     public void V20_Test_OnV40()
     {
-        var appSetting = AppSettingTest.GetAppSettings();
+        var appSetting = GlobalTestUtils.GetAppConnectionString();
 
         var mongoDb = new MongoDbConnect(appSetting);
         var database = mongoDb.GetDatabase();

@@ -1,14 +1,16 @@
 <Project>
-  <PropertyGroup>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <InvariantGlobalization>true</InvariantGlobalization>
-  </PropertyGroup>
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <InvariantGlobalization>true</InvariantGlobalization>
+        <LangVersion>latest</LangVersion>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
 
-  <Target Name="RemoveBinObjFolders" AfterTargets="CoreClean">
-    <!--Message Text="Inside RemoveBinObjFolders Target" Importance="high"/-->
-    <RemoveDir Directories="$(BaseIntermediateOutputPath)" />
-    <RemoveDir Directories="$(TargetDir)" />
-  </Target>
-  
+    <Target Name="RemoveBinObjFolders" AfterTargets="CoreClean">
+        <!--Message Text="Inside RemoveBinObjFolders Target" Importance="high"/-->
+        <RemoveDir Directories="$(BaseIntermediateOutputPath)" />
+        <RemoveDir Directories="$(TargetDir)" />
+    </Target>
+
 </Project>

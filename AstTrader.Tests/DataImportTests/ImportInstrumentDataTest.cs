@@ -11,7 +11,7 @@ namespace AstTrader.Tests.DataImportTests
         [Test, Explicit]
         public void ImportInstruments()
         {
-            var appSetting = AppSettingTest.GetAppSettings();
+            var appSetting = GlobalTestUtils.GetAppConnectionString();
 
             var mongoDb = new MongoDbConnect(appSetting);
             var database = mongoDb.GetDatabase();

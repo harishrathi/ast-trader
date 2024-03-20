@@ -10,8 +10,8 @@
     <PackageReference Include="MongoDB.Driver" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\AstTrader.Shared\AstTrader.Shared.csproj" />
+<ItemGroup>
+    <ProjectReference Include="..\TradeAstra.Core.Config\TradeAstra.Core.Config.csproj" />
   </ItemGroup>
 
 </Project>

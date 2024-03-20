@@ -11,7 +11,7 @@ public class DataQualityTests
     [Test, Explicit]
     public void CheckInactiveStocks()
     {
-        var appSetting = AppSettingTest.GetAppSettings();
+        var appSetting = GlobalTestUtils.GetAppConnectionString();
 
         var mongoDb = new MongoDbConnect(appSetting);
         var database = mongoDb.GetDatabase();

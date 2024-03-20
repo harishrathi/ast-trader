@@ -14,7 +14,7 @@ namespace AstTrader.Tests.DataImportTests
         [Test, Explicit]
         public void CreateCollection()
         {
-            var appSetting = AppSettingTest.GetAppSettings();
+            var appSetting = GlobalTestUtils.GetAppConnectionString();
 
             var mongoDb = new MongoDbConnect(appSetting);
             var database = mongoDb.GetDatabase();
@@ -28,7 +28,7 @@ namespace AstTrader.Tests.DataImportTests
         [Test, Explicit]
         public void FetchData()
         {
-            var appSetting = AppSettingTest.GetAppSettings();
+            var appSetting = GlobalTestUtils.GetAppConnectionString();
 
             var mongoDb = new MongoDbConnect(appSetting);
             var database = mongoDb.GetDatabase();

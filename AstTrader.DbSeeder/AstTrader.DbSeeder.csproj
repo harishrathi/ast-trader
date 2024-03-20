@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AstTrader.Shared\AstTrader.Shared.csproj" />
+    <ProjectReference Include="..\TradeAstra.Core.Config\TradeAstra.Core.Config.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,5 +1,3 @@
-using AstTrader.Server.AppServices;
-
 namespace AstTrader.Server;
 
 public class Program

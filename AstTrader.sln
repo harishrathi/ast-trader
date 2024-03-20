@@ -28,11 +28,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AstTrader.DbSeeder", "AstTr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AstTrader.Strategy", "AstTrader.Strategy\AstTrader.Strategy.csproj", "{D050EB2E-2957-4A9F-BABC-EDBE5A43319C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AstTrader.Shared", "AstTrader.Shared\AstTrader.Shared.csproj", "{D41C05A3-23EC-46A2-9F9C-BC8128D5CFB6}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AstTrader.Database", "AstTrader.Database\AstTrader.Database.csproj", "{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstTrader.Tests4DbSetup", "AstTrader.DbSetup\AstTrader.Tests4DbSetup.csproj", "{C727C70D-F1F8-4F1C-894F-5ECF0B786EEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeAstra.Core.Config", "TradeAstra.Core.Config\TradeAstra.Core.Config.csproj", "{514A2ED9-3FBF-4575-8AC0-05B52171EFD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeAstra.Tests.DbSeeder", "TradeAstra.Tests.DbSeeder\TradeAstra.Tests.DbSeeder.csproj", "{9D6243CF-D54A-45A8-A13F-4A56E38C9892}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,18 +62,18 @@ Global
 		{D050EB2E-2957-4A9F-BABC-EDBE5A43319C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D050EB2E-2957-4A9F-BABC-EDBE5A43319C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D050EB2E-2957-4A9F-BABC-EDBE5A43319C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D41C05A3-23EC-46A2-9F9C-BC8128D5CFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D41C05A3-23EC-46A2-9F9C-BC8128D5CFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D41C05A3-23EC-46A2-9F9C-BC8128D5CFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D41C05A3-23EC-46A2-9F9C-BC8128D5CFB6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C727C70D-F1F8-4F1C-894F-5ECF0B786EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C727C70D-F1F8-4F1C-894F-5ECF0B786EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C727C70D-F1F8-4F1C-894F-5ECF0B786EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C727C70D-F1F8-4F1C-894F-5ECF0B786EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514A2ED9-3FBF-4575-8AC0-05B52171EFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514A2ED9-3FBF-4575-8AC0-05B52171EFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514A2ED9-3FBF-4575-8AC0-05B52171EFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514A2ED9-3FBF-4575-8AC0-05B52171EFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6243CF-D54A-45A8-A13F-4A56E38C9892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6243CF-D54A-45A8-A13F-4A56E38C9892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6243CF-D54A-45A8-A13F-4A56E38C9892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6243CF-D54A-45A8-A13F-4A56E38C9892}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

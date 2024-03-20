@@ -1,15 +1,15 @@
 using MongoDB.Bson;
 using MongoDB.Driver;
+using TradeAstra.Core.Config;
 
 namespace AstTrader.DbSeeder.Utils
 {
     public class MongoDbConnect
     {
-        private readonly AppSettings appSettings;
-
-        public MongoDbConnect(AppSettings settings)
+        private readonly AppConnectionString appConnectionString;
+        public MongoDbConnect(AppConnectionString appConnectionString)
         {
-            appSettings = settings;
+            this.appConnectionString = appConnectionString;
         }
 
         public void CheckMongDbConnection()
@@ -17,7 +17,7 @@ namespace AstTrader.DbSeeder.Utils
             // Send a ping to confirm a successful connection
             try
             {
-                var settings = MongoClientSettings.FromConnectionString(appSettings.ConnectionStrings.MongoDbConnString);
+                var settings = MongoClientSettings.FromConnectionString(appConnectionString.MongoDbConnString);
                 var client = new MongoClient(settings);
                 var result = client.GetDatabase("admin").RunCommand<BsonDocument>(new BsonDocument("ping", 1));
                 Console.WriteLine("Pinged your deployment. You successfully connected to MongoDB!");
@@ -30,9 +30,9 @@ namespace AstTrader.DbSeeder.Utils
 
         public IMongoDatabase GetDatabase()
         {
-            var settings = MongoClientSettings.FromConnectionString(appSettings.ConnectionStrings.MongoDbConnString);
+            var settings = MongoClientSettings.FromConnectionString(appConnectionString.MongoDbConnString);
             var client = new MongoClient(settings);
-            return client.GetDatabase(appSettings.ConnectionStrings.MongoDbConnString);
+            return client.GetDatabase(appConnectionString.MongoDbConnString);
         }
     }
 }

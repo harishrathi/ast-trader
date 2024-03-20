@@ -12,9 +12,9 @@ public class UpdateStockEodDataTest
     [Test, Explicit]
     public void UpdateDataDailyEodTest()
     {
-        var appSetting = AppSettingTest.GetAppSettings();
+        var appSetting = GlobalTestUtils.GetAppConnectionString();
 
-        Console.WriteLine(appSetting.ConnectionStrings.KiteAuthToken);
+        Console.WriteLine(appSetting.KiteAuthToken);
 
         var kite = new KiteWrapper(appSetting);
 

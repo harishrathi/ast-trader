@@ -1,6 +1,12 @@
-﻿namespace AstTrader.DbSetup;
+using NUnit.Framework;
 
-public class Class1
+namespace AstTrader.Tests4DbSetup;
+
+public class ImportSymbolsUsingFyers
 {
-
+    [Test]
+    public void Test1()
+    {
+        Assert.Pass();
+    }
 }
