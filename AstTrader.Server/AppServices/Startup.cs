@@ -35,8 +35,11 @@ namespace AstTrader.Server.AppServices
             services.AddMyHangfire(mongoClient, _connStrings);
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app)
         {
+            var env = app.ApplicationServices.GetRequiredService<IWebHostEnvironment>();
+            ArgumentNullException.ThrowIfNull(env, nameof(env));
+
             app.UseDefaultFiles(); // for index.html
             app.UseStaticFiles();
 
@@ -62,6 +65,9 @@ namespace AstTrader.Server.AppServices
                 endpoints.MapHangfireDashboard();
                 endpoints.MapFallbackToFile("/index.html");
             });
+
+            AppLifetimeEvents.RegisterJobs(app);
+
         }
     }
 }
