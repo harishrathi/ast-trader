@@ -12,13 +12,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TradeAstra.Core.Config\TradeAstra.Core.Config.csproj" />
+    <Reference Include="KiteConnect">
+        <HintPath>..\TradeAstra.Wrapper.Zerodha\kite-connect-net8.0\KiteConnect.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="KiteConnect">
-      <HintPath>..\kite-connect-net8.0\KiteConnect.dll</HintPath>
-    </Reference>
+    <Folder Include="Zerodha\" />
   </ItemGroup>
 
 </Project>

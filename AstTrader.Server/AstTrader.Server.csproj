@@ -24,7 +24,6 @@
             <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
         </ProjectReference>
         <ProjectReference Include="..\AstTrader.Database\AstTrader.Database.csproj" />
-        <ProjectReference Include="..\TradeAstra.Core.Config\TradeAstra.Core.Config.csproj" />
     </ItemGroup>
 
 </Project>

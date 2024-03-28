@@ -1,8 +1,7 @@
 using AstTrader.DbSeeder.StockCandleDL;
 using AstTrader.DbSeeder.StockInstrumentDL;
 using AstTrader.DbSeeder.Utils;
-using AstTrader.DbSeeder.Zerodha;
-using AstTrader.Tests.TestUtils;
+using TradeAstra.Wrapper.Zerodha;
 
 namespace AstTrader.Tests.DataImportTests
 {
@@ -40,7 +39,7 @@ namespace AstTrader.Tests.DataImportTests
                 TestContext.Progress.WriteLine($"Getting data for => {instr.Exchange}:{instr.Symbol}, Count: {remaining.IndexOf(instr)} of {remaining.Count}");
                 database.CreateCollection(instr.CollectionNameForDailyData());
 
-                var wrapper = new KiteWrapper(appSetting);
+                var wrapper = new KiteApiWrapper(appSetting);
                 var stockCandleCollection = database.GetCollection<StockCandle>(instr.CollectionNameForDailyData());
 
                 var candlesList = new List<StockCandle>();

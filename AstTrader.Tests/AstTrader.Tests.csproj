@@ -31,7 +31,7 @@
 
   <ItemGroup>
     <Reference Include="KiteConnect">
-      <HintPath>..\kite-connect-net8.0\KiteConnect.dll</HintPath>
+      <HintPath>..\TradeAstra.Wrapper.Zerodha\kite-connect-net8.0\KiteConnect.dll</HintPath>
     </Reference>
   </ItemGroup>
 

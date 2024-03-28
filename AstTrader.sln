@@ -7,21 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AstTrader.Server", "AstTrad
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "asttrader.client", "asttrader.client\asttrader.client.esproj", "{4699CECF-C292-4A62-9FE2-18D3D59F90DC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4C41E9E9-5438-4C4E-AC58-BE1F433826D8}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-		.gitignore = .gitignore
-		.husky\csx\commit-lint.csx = .husky\csx\commit-lint.csx
-		.husky\commit-msg = .husky\commit-msg
-		Directory.Build.props = Directory.Build.props
-		Directory.Packages.props = Directory.Packages.props
-		scripts\docker-compose.yml = scripts\docker-compose.yml
-		.config\dotnet-tools.json = .config\dotnet-tools.json
-		scripts\mongodb-setup.dockerfile = scripts\mongodb-setup.dockerfile
-		README.md = README.md
-		.husky\task-runner.json = .husky\task-runner.json
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AstTrader.Tests", "AstTrader.Tests\AstTrader.Tests.csproj", "{6F3A06CA-8022-45D8-B08B-3D84D70B90D9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AstTrader.DbSeeder", "AstTrader.DbSeeder\AstTrader.DbSeeder.csproj", "{B9ED1EC3-8E6A-4E1E-9938-AC3A526EF240}"
@@ -29,10 +14,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AstTrader.Strategy", "AstTrader.Strategy\AstTrader.Strategy.csproj", "{D050EB2E-2957-4A9F-BABC-EDBE5A43319C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AstTrader.Database", "AstTrader.Database\AstTrader.Database.csproj", "{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeAstra.Core.Config", "TradeAstra.Core.Config\TradeAstra.Core.Config.csproj", "{514A2ED9-3FBF-4575-8AC0-05B52171EFD7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeAstra.Tests.DbSeeder", "TradeAstra.Tests.DbSeeder\TradeAstra.Tests.DbSeeder.csproj", "{9D6243CF-D54A-45A8-A13F-4A56E38C9892}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,14 +47,6 @@ Global
 		{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F22FA0B-D08B-4D4E-B6F2-8C2E6C3EDF33}.Release|Any CPU.Build.0 = Release|Any CPU
-		{514A2ED9-3FBF-4575-8AC0-05B52171EFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{514A2ED9-3FBF-4575-8AC0-05B52171EFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{514A2ED9-3FBF-4575-8AC0-05B52171EFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{514A2ED9-3FBF-4575-8AC0-05B52171EFD7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D6243CF-D54A-45A8-A13F-4A56E38C9892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D6243CF-D54A-45A8-A13F-4A56E38C9892}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D6243CF-D54A-45A8-A13F-4A56E38C9892}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D6243CF-D54A-45A8-A13F-4A56E38C9892}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

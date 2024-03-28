@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeAstra.ServerApi", "TradeAstra.ServerApi\TradeAstra.ServerApi.csproj", "{32BE8CC8-71FB-4A4B-A31C-5982BA13F04E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeAstra.Code.Domain", "TradeAstra.Code.Domain\TradeAstra.Code.Domain.csproj", "{2778394C-62E4-4C91-9742-F45A2AA6562F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeAstra.Core.Config", "TradeAstra.Core.Config\TradeAstra.Core.Config.csproj", "{BF57CD87-A663-4DC8-8A01-F42818102E9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeAstra.Tests.DbSeeder", "TradeAstra.Tests.DbSeeder\TradeAstra.Tests.DbSeeder.csproj", "{88302803-AEEA-4E79-B4D6-18434AA8EB6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeAstra.Wrapper.Zerodha", "TradeAstra.Wrapper.Zerodha\TradeAstra.Wrapper.Zerodha.csproj", "{118A9F3E-1CD0-4D94-87F3-85D78166255D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeAstra.Tests.Integration", "TradeAstra.Tests.Integration\TradeAstra.Tests.Integration.csproj", "{AFF2627E-714B-416E-AFD3-B50D6CEFC90B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32BE8CC8-71FB-4A4B-A31C-5982BA13F04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BE8CC8-71FB-4A4B-A31C-5982BA13F04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BE8CC8-71FB-4A4B-A31C-5982BA13F04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BE8CC8-71FB-4A4B-A31C-5982BA13F04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2778394C-62E4-4C91-9742-F45A2AA6562F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2778394C-62E4-4C91-9742-F45A2AA6562F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2778394C-62E4-4C91-9742-F45A2AA6562F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2778394C-62E4-4C91-9742-F45A2AA6562F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF57CD87-A663-4DC8-8A01-F42818102E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF57CD87-A663-4DC8-8A01-F42818102E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF57CD87-A663-4DC8-8A01-F42818102E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF57CD87-A663-4DC8-8A01-F42818102E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88302803-AEEA-4E79-B4D6-18434AA8EB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88302803-AEEA-4E79-B4D6-18434AA8EB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88302803-AEEA-4E79-B4D6-18434AA8EB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88302803-AEEA-4E79-B4D6-18434AA8EB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118A9F3E-1CD0-4D94-87F3-85D78166255D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118A9F3E-1CD0-4D94-87F3-85D78166255D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118A9F3E-1CD0-4D94-87F3-85D78166255D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118A9F3E-1CD0-4D94-87F3-85D78166255D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF2627E-714B-416E-AFD3-B50D6CEFC90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF2627E-714B-416E-AFD3-B50D6CEFC90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF2627E-714B-416E-AFD3-B50D6CEFC90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF2627E-714B-416E-AFD3-B50D6CEFC90B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2ACD475-C807-4CDC-B983-44E9C91D4A2E}
+	EndGlobalSection
+EndGlobal
